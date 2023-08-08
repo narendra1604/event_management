@@ -51,9 +51,6 @@ MariaDB [mom]> desc sathyabama_events;
 7 rows in set (0.016 sec)
 MariaDB [mom]> create table attendees(attendee_id int primary key auto_increment,attendee_name varchar(90) not null,attendee_email varchar(90) not null unique);
 Query OK, 0 rows affected (0.056 sec)
-
-MariaDB [mom]> desc attendee;
-ERROR 1146 (42S02): Table 'mom.attendee' doesn't exist
 MariaDB [mom]> desc attendees;
 +----------------+-------------+------+-----+---------+----------------+
 | Field          | Type        | Null | Key | Default | Extra          |
